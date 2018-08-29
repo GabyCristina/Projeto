@@ -11,11 +11,11 @@ class Conexao {
     const HOST      = "localhost";
     const NOMEBANCO = "herbaqualy";
     const USUARIO   = "root";
-    const SENHA     = "root";
+    const SENHA     = "";
     public static $conexao = null;
 
 
-    public static function getConexao(){//conecta com o banco
+    public static function getConexao(){
 
         try{
             if(self::$conexao == null){
